@@ -1,0 +1,15 @@
+Servidor con nodeJs
+
+1. Crea una carpeta para el laboratorio y dentro de la misma crea un archivo llamado servidor.js.
+2. Inicializa un proyecto de npm usando el comando npm init.
+3. Instala usando npm el paquete de chalk - npm (npmjs.com).
+4. Inicializa un repositorio usando el comando git init.
+5. Usando require obtener el módulo nativo de node de http.
+6. Crea las constantes para el host que será el localhost y para el puerto 
+    que será el 8000 o el 8080.
+7. Crea un listener para tu servidor como se realizó en clase, 
+    este listener debe responder con tu nombre y un mensaje en formato JSON.
+8. Crea el servidor usando el módulo de http.
+9. Levanta el servidor usando la función listen e imprime un mensaje por consola con la ruta incluyendo host y el puerto donde está escuchando el servidor y usa chalk para que este mensaje sea de color verde.
+10. Ejecuta con node tu servidor y prueba que todo funcione correctamente.
+11. Sube tu proyecto a un repositorio de github y comparte el enlace 😉.
